@@ -14,4 +14,9 @@ class Dog
   end
 end
 
-dog1 = 
+dog1.set_name("Tigger")
+
+puts dog1.get_name
+
+dog1 = Dog.new
+dog1.bark

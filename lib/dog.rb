@@ -1,18 +1,12 @@
 # Your code goes here!
-class Dog 
- 
+class Dog
+  attr_accessor :name
+
   def bark
     puts "woof!"
   end
-  
-  def get_name 
-    return @name
-  end
-  
-  def set_name(dog_name)
-    @name = "Fido"
-  end
-  
+end
+
  
 end
 

@@ -10,7 +10,7 @@ class Dog
   end
   
   def set_name(dog_name)
-    @name = dog_name
+    @name = "Fido"
   end
   
  

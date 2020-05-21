@@ -1,5 +1,9 @@
 # Your code goes here!
 class Dog 
+ 
+  def bark
+    puts "woof!"
+  end
   
   def name 
     dog_name
@@ -9,9 +13,7 @@ class Dog
     name = dog_name
   end
   
-  def bark
-    puts "woof!"
-  end
+ 
 end
 
 

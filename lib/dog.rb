@@ -2,11 +2,11 @@
 class Dog 
   
   def name 
-    return @name
+    dog_name
   end
   
-  def set_name(dog_name)
-    @name = dog_name
+  def name(dog_name)
+    name = dog_name
   end
   
   def bark

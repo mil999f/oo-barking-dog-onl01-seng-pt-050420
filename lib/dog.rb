@@ -5,12 +5,12 @@ class Dog
     puts "woof!"
   end
   
-  def name 
-    dog_name
+  def get_name 
+    return @name
   end
   
-  def name(dog_name)
-    name = dog_name
+  def set_name(dog_name)
+    @name = dog_name
   end
   
  
